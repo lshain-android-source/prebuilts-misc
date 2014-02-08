@@ -12,8 +12,6 @@ LOCAL_MODULE_CLASS := EXECUTABLES
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SBIN)
-
 include $(BUILD_PREBUILT)
 
 # Any prebuilt files with default TAGS can use the below:
